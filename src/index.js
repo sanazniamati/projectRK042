@@ -10,7 +10,7 @@ const App = () => {
     const pointerPosition = stage.getPointerPosition();
     const x = pointerPosition.x - 190;
     const y = pointerPosition.y - 40;
-    setText(() => ("X:" + x, "Y:" + y));
+    setText(() => "X:" + x + " Y:" + y);
   };
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
